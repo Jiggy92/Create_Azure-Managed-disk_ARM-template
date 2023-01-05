@@ -28,8 +28,9 @@ On the Edit parameters blade, click Load file and upload the parameters.json fil
 
 Back on the Custom deployment blade, specify the following settings:
 
-Setting	Value
-Subscription	the name of the Azure subscription you are using in this lab
+Setting	Value:-
+
+**Subscription the name of the Azure subscription you are using in this lab
 Resource Group	the name of a new resource group az104-03b-rg1
 Region	the name of any Azure region available in the subscription you are using in this lab
 Disk Name	az104-03b-disk1
