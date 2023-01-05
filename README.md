@@ -31,15 +31,25 @@ Back on the Custom deployment blade, specify the following settings:
 Setting	Value:-
 
 **Subscription the name of the Azure subscription you are using in this lab
+
 Resource Group	the name of a new resource group az104-03b-rg1
+
 Region	the name of any Azure region available in the subscription you are using in this lab
+
 Disk Name	az104-03b-disk1
-Location	the value of the location parameter you noted in the previous task
+
+Location the value of the location parameter you noted in the previous task
+
 Sku	Standard_LRS
+
 Disk Size Gb	32
+
 Create Option	empty
+
 Disk Encryption Set Type	EncryptionAtRestWithPlatformKey
+
 Network Access Policy	AllowAll
+
 Select Review + Create and then select Create.
 
 Verify that the deployment completed successfully.
