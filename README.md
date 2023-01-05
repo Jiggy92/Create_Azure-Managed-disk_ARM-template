@@ -11,6 +11,9 @@ On the Edit template blade, click Load file and upload the template.json file yo
 
 Within the editor pane, remove the following lines:
 
+
+
+
 "sourceResourceId": {
   "type": "String"
 
@@ -19,6 +22,9 @@ Within the editor pane, remove the following lines:
     "defaultValue": "V1",
     "type": "String"
 },  
+
+
+
 
 **Note: These parameters are removed since they are not applicable to the current deployment. In particular, sourceResourceId, sourceUri, osType, and hyperVGeneration parameters are applicable to creating an Azure disk from an existing VHD file**
 
@@ -30,7 +36,11 @@ On the Edit parameters blade, click Load file and upload the parameters.json fil
 
 Back on the Custom deployment blade, specify the following settings:
 
-Setting	Value:-
+
+
+
+
+**Setting	Value:-
 
 **Subscription the name of the Azure subscription you are using in this lab**
 
